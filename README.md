@@ -40,9 +40,11 @@ cp .env.example .env
 ```bash
 php artisan key:generate
 ```
- 
-6. Configure your .env file with your database settings:
- 
+
+6. Create a new database with your_database_name.
+
+7. Run database migrations to create the database tables:
+
 ```bash
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -52,13 +54,13 @@ DB_USERNAME=your_database_username
 DB_PASSWORD=your_database_password
 ```
  
-7. Run database migrations to create the database tables:
+8. Run database migrations to create the database tables:
  
 ```bash
 php artisan migrate
 ```
  
-8. Seed the database with initial data (if applicable):
+9. Seed the database with initial data (if applicable):
  
 ```bash
 php artisan db:seed
