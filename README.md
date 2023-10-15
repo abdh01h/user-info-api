@@ -15,7 +15,7 @@ Before you begin, ensure you have the following:
 1. Clone the repository:
 
 ```bash
-   git clone https://github.com/yourusername/your-laravel-project.git
+   git clone https://github.com/abdh01h/user-info-api
 ```
 2. Navigate to the project directory:
 
